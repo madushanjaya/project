@@ -53,7 +53,7 @@ void loop() {
   digitalWrite(trigPin2, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin2, LOW);
-  // Reads the echoPin, returns the sound wave travel time in microseconds
+  // Reads the echoPin, returns the sound wave travel time in microsecon
   duration2 = pulseIn(echoPin2, HIGH);
   distance2 = duration2 * 0.034 / 2; // Speed of sound wave divided by 2 (go and back)
   
